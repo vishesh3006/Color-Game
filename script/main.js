@@ -59,7 +59,7 @@ for(var i = 0; i<current; i++)
         {
             h1.style.backgroundColor = pickedcolor;
             // outcome.textContent = "Correct!";
-            reset.textContent = "Play Again?"
+            reset.textContent = "Play Again?";
             for(var i=0; i<current; i++)
             {
                 squares[i].style.backgroundColor = pickedcolor ;
