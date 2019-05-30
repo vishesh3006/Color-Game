@@ -49,22 +49,13 @@ button:hover{
 }
 .reset{
     float: left;
-    /* margin-left: 15%; */
 }
-/* 
-.center{
-    float: center;
-} */
 
 .right{
     padding-left: 10px;
     padding-right: 10px;
     float: right;
 }
-/* 
-.easy{
-    margin-right: 15%;
-} */
 
 .active{
     width : 90px;
