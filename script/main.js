@@ -1,7 +1,6 @@
 var h1 = document.querySelector("h1");
 var current = 6;
 var colors = generateRandomColors(current);
-// var outcome = document.querySelector(".outcome");
 var squares = document.getElementsByClassName("square");
 var codeheading = document.querySelector(".anscode");
 var reset = document.querySelector(".reset");
@@ -24,7 +23,6 @@ squares[5].style.backgroundColor = "black";
 
 pickedcolor = pickcolor();
 codeheading.textContent = pickedcolor;
-// outcome.textContent = "";
 });
 
 
@@ -38,7 +36,6 @@ hard.addEventListener("click", function(){
         squares[i].style.backgroundColor = colors[i];
     pickedcolor = pickcolor();
     codeheading.textContent = pickedcolor;
-    // outcome.textContent = "";
 })
 
 
@@ -58,7 +55,6 @@ for(var i = 0; i<current; i++)
         if(pickedcolor == this.style.backgroundColor)
         {
             h1.style.backgroundColor = pickedcolor;
-            // outcome.textContent = "Correct!";
             reset.textContent = "Play Again?";
             for(var i=0; i<current; i++)
             {
@@ -69,7 +65,6 @@ for(var i = 0; i<current; i++)
         else
         {   
             this.style.backgroundColor = "black";
-            // outcome.textContent = "Try Again!";
        }
      });
 }
@@ -83,7 +78,6 @@ reset.addEventListener("click", function(){
     
     pickedcolor = pickcolor();
     codeheading.textContent = pickedcolor;
-    // outcome.textContent = "";
 })
 
 function pickcolor()
