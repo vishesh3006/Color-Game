@@ -1,0 +1,74 @@
+body{
+    background-color : black;
+}
+
+.square{
+    border-radius: 35px ;
+    width: 30%;
+    background-color: white;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+    transition: background 0.6s;
+}
+
+h1{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#container{
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.anscode{
+    text-transform: uppercase;
+}
+
+#stripe {
+    background: white;
+    height: 30px;
+	text-align: center;
+    color: black;
+    margin-bottom: 30px;
+}
+
+button{
+    background-color: white;
+    border : 1px solid white;
+    height: 30px;
+    transition: all 0.40s
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+}
+.reset{
+    float: left;
+    margin-left: 15%;
+}
+
+.center{
+    float: center;
+}
+
+.right{
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
+}
+
+.easy{
+    margin-right: 15%;
+}
+
+.active{
+    width : 90px;
+    background-color: blue;
+    border: 1px solid blue;
+    color: white;
+}
